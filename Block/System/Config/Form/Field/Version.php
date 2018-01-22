@@ -1,30 +1,24 @@
 <?php
-namespace MagePsycho\Customshipping\Block\System\Config\Form\Field;
+namespace Doyu\Dgmshipping\Block\System\Config\Form\Field;
 
 use Magento\Framework\Data\Form\Element\AbstractElement;
 
-/**
- * @category   MagePsycho
- * @package    MagePsycho_Customshipping
- * @author     magepsycho@gmail.com
- * @website    http://www.magepsycho.com
- */
 class Version extends \Magento\Config\Block\System\Config\Form\Field
 {
-    const EXTENSION_URL = 'http://www.magepsycho.com/extensions.html';
+    const EXTENSION_URL = 'http://www.Doyu.com/extensions.html';
 
     /**
-     * @var \MagePsycho\Customshipping\Helper\Data $helper
+     * @var \Doyu\Customshipping\Helper\Data $helper
      */
     protected $_helper;
 
     /**
      * @param \Magento\Backend\Block\Template\Context $context
-     * @param \MagePsycho\Customshipping\Helper\Data $helper
+     * @param \Doyu\Customshipping\Helper\Data $helper
      */
     public function __construct(
         \Magento\Backend\Block\Template\Context $context,
-        \MagePsycho\Customshipping\Helper\Data $helper
+        \Doyu\Customshipping\Helper\Data $helper
     ) {
         $this->_helper = $helper;
         parent::__construct($context);

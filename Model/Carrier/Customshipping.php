@@ -1,6 +1,6 @@
 <?php
 
-namespace MagePsycho\Customshipping\Model\Carrier;
+namespace Doyu\Dgmshipping\Model\Carrier;
 
 use Magento\Framework\App\Config\ScopeConfigInterface;
 use Magento\Framework\DataObject;
@@ -15,12 +15,6 @@ use Magento\Quote\Model\Quote\Address\RateResult\MethodFactory;
 use Magento\Quote\Model\Quote\Address\RateRequest;
 use Psr\Log\LoggerInterface;
 
-/**
- * @category   MagePsycho
- * @package    MagePsycho_Customshipping
- * @author     magepsycho@gmail.com
- * @website    http://www.magepsycho.com
- */
 class Customshipping extends AbstractCarrier implements CarrierInterface
 {
     /**
@@ -28,7 +22,7 @@ class Customshipping extends AbstractCarrier implements CarrierInterface
      *
      * @var string
      */
-    protected $_code = 'mpcustomshipping';
+    protected $_code = 'dydgmshipping';
 
     /**
      * Whether this carrier has fixed rates calculation

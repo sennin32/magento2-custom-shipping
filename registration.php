@@ -2,6 +2,6 @@
 
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'MagePsycho_Customshipping',
+    'Doyu_Dgmshipping',
     __DIR__
 );

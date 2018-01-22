@@ -1,17 +1,11 @@
 <?php
-namespace MagePsycho\Customshipping\Helper;
+namespace Doyu\Dgmshipping\Helper;
 
-/**
- * @category   MagePsycho
- * @package    MagePsycho_Customshipping
- * @author     magepsycho@gmail.com
- * @website    http://www.magepsycho.com
- */
 class Data extends \Magento\Framework\App\Helper\AbstractHelper
 {
 
-    const XML_PATH_ENABLED = 'magepsycho_customshipping/general/enabled';
-    const XML_PATH_DEBUG   = 'magepsycho_customshipping/general/debug';
+    const XML_PATH_ENABLED = 'Doyu_Dgmshipping/general/enabled';
+    const XML_PATH_DEBUG   = 'Doyu_Dgmshipping/general/debug';
 
     /**
      * @var \Psr\Log\LoggerInterface
@@ -60,7 +54,7 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper
 
     public function getExtensionVersion()
     {
-        $moduleCode = 'MagePsycho_Customshipping';
+        $moduleCode = 'Doyu_Dgmshipping';
         $moduleInfo = $this->_moduleList->getOne($moduleCode);
         return $moduleInfo['setup_version'];
     }

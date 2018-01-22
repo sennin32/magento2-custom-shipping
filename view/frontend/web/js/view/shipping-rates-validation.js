@@ -20,8 +20,8 @@ define(
         sampleShippingProviderShippingRatesValidationRules
     ) {
         "use strict";
-        defaultShippingRatesValidator.registerValidator('mpcustomshipping', sampleShippingProviderShippingRatesValidator);
-        defaultShippingRatesValidationRules.registerRules('mpcustomshipping', sampleShippingProviderShippingRatesValidationRules);
+        defaultShippingRatesValidator.registerValidator('dydgmshipping', sampleShippingProviderShippingRatesValidator);
+        defaultShippingRatesValidationRules.registerRules('dydgmshipping', sampleShippingProviderShippingRatesValidationRules);
         return Component;
     }
 );

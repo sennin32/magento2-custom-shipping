@@ -9,8 +9,8 @@
                             <item name="children" xsi:type="array">
                                 <item name="shipping-rates-validation" xsi:type="array">
                                     <item name="children" xsi:type="array">
-                                        <item name="mpcustomshipping-rates-validation" xsi:type="array">
-                                            <item name="component" xsi:type="string">MagePsycho_Customshipping/js/view/shipping-rates-validation</item>
+                                        <item name="dydgmshipping-rates-validation" xsi:type="array">
+                                            <item name="component" xsi:type="string">Doyu_Dgmshipping/js/view/shipping-rates-validation</item>
                                         </item>
                                     </item>
                                 </item>
